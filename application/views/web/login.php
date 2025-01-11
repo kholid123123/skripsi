@@ -44,7 +44,7 @@
         <div class="container-login100">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="<?php echo base_url('foto/kresek.png') ?>" class="login-image">
+                    <img src="<?php echo base_url('foto/Kresek.png') ?>" class="login-image">
                 </div>
                 <div class="col-md-6">
                     <div class="wrap-login100">
