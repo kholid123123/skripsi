@@ -27,10 +27,10 @@ date_default_timezone_set("Asia/Jakarta");
 $root = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'];
 $root .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 $pc_root = explode("/", $root);
-$config['base_url']             = $root;
+$config['base_url'] = $root;
 // $config['base_url'] = "http://" . $_SERVER['HTTP_HOST'];
 // $config['base_url'] .= preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])) . '/';
-$config['nip_kepala']           = "	198006302003121003"; //isi sesuai nama kepala
+$config['nip_kepala'] = "198006302003121003"; //isi sesuai nama kepala
 
 /*
 |--------------------------------------------------------------------------
