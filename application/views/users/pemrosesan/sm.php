@@ -643,6 +643,7 @@
                   '004' => "004 : UCAPAN TERIMAKASIH ",
                   '005' => "005 : UNDANGAN",
                   '007' => "007 : -",
+                  '011' => "011 : -",
                   '012' => "012 : RUMAH DINAS",
                   '013' => "013 : MES DINAS",
                   '015' => "015 : PENERANGAN LISTRIK",
