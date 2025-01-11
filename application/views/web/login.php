@@ -50,7 +50,7 @@
                     <div class="wrap-login100">
                         <form method="post" action="" class="login100-form validate-form">
                             <span class="login100-form-title p-b-26">
-                                E-SURAT LOGIN
+                                E-SURAT LOGIN Test
                             </span>
                             <small>
                                 <?php echo $this->session->flashdata('msg'); ?>
