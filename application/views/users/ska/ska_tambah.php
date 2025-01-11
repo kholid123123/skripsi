@@ -92,6 +92,7 @@ $no = sprintf("%03s", $urutan);
                                         '003' => "003 : HARI BESAR/HARI RAYA",
                                         '004' => "004 : UCAPAN TERIMAKASIH ",
                                         '005' => "005 : UNDANGAN",
+                                        '011' => "011 : -",
                                         '012' => "012 : RUMAH DINAS",
                                         '013' => "013 : MES DINAS",
                                         '015' => "015 : PENERANGAN LISTRIK",
