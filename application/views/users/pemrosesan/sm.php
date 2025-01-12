@@ -690,7 +690,6 @@
 
                   // BLM ADA KODE SURATNYA
                   '050' => "050 : PERENCANAAN",
-                  '058' => "058 : BIDANG KEPEGAWAIAN",
                   '061' => "061 : INST PEMERINTAH",
                   '062' => "062 : ORG NON PEM",// nomernya blm jelas
                   '072' => "072 : SURVEY",
