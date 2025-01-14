@@ -66,7 +66,7 @@ $sql = $this->db->get_where("tbl_ska", array('id_ska' => "$id"))->row();
     }
 
     .kop_1 {
-        font-size: 16pt;
+        font-size: 15pt;
         
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
