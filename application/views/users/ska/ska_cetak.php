@@ -121,7 +121,7 @@ $sql = $this->db->get_where("tbl_ska", array('id_ska' => "$id"))->row();
         <tr>
             <td width="80">
                 <!-- <img src="<?php echo base_url(); ?>foto/profil_1.png" alt="logo" width="100"> -->
-                <img src="<?php echo base_url(); ?>foto/default.png" alt="logo" width="100">
+                <img src="<?php echo base_url(); ?>foto/profil_3.jpg" alt="logo" width="100">
             </td>
             <td>
                 <p class="kop_1"><?php echo $md->kop_1; ?></p>
@@ -186,7 +186,7 @@ $sql = $this->db->get_where("tbl_ska", array('id_ska' => "$id"))->row();
     <?php 
     if ($sql->ska_jenis == 1) {
         // echo "<br><br><img src='foto/ttd.png' alt='Tanda Tangan'><br><br>";
-        echo "<br><br><img src='foto/ttd_2.jpg' alt='Tanda Tangan'><br><br>";
+        echo "<br><br><img src='foto/ttd_3.jpg' alt='Tanda Tangan'><br><br>";
     } else {
         echo "<br><br><br><br>";
     } 
