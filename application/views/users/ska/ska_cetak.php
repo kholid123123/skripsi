@@ -121,7 +121,7 @@ $sql = $this->db->get_where("tbl_ska", array('id_ska' => "$id"))->row();
         <tr>
             <td width="80">
                 <!-- <img src="<?php echo base_url(); ?>foto/profil_1.png" alt="logo" width="100"> -->
-                <img src="<?php echo base_url(); ?>foto/profil_2.jpg" alt="logo" width="100">
+                <img src="<?php echo base_url(); ?>foto/default.png" alt="logo" width="100">
             </td>
             <td>
                 <p class="kop_1"><?php echo $md->kop_1; ?></p>
