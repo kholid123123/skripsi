@@ -126,7 +126,7 @@ $username  = $cek->pegawai_nip;
                                             <?php if ($level == 'staf' and $baris->ska_dibaca != 4) { ?>
                                                 <tr>
                                                     <td></td>
-                                                    <td class="text-left"><a href="<?php echo base_url(); ?>users/ska/cetak/<?php echo $baris->id_ska; ?>" class="btn btn-info btn-sm mt-2 mb-2 fw-bold" title="Preview Draft Surat" target="_blank"><i class="fas fa-print"></i> Preview Surat</a></td>
+                                                    <!-- <td class="text-left"><a href="<?php echo base_url(); ?>users/ska/cetak/<?php echo $baris->id_ska; ?>" class="btn btn-info btn-sm mt-2 mb-2 fw-bold" title="Preview Draft Surat" target="_blank"><i class="fas fa-print"></i> Preview Surat</a></td> -->
                                                 </tr>
                                             <?php } elseif ($level != 'staf') { ?>
                                                 <tr>
