@@ -27,21 +27,7 @@ $username  = $cek->pegawai_nip;
                             </h6>
                         </div>
                         <div class="separator-solid"></div>
-                        <div class="card-body">
-    <div class="invoice-item">
-        <div class="invoice-top">
-            <h6 class="text-uppercase fw-bold text-danger">
-                Error: Tidak dapat mengakses pengajuan surat.
-            </h6>
-        </div>
-        <div class="separator-solid"></div>
-        <div class="alert alert-danger mt-3" role="alert">
-            Terjadi kesalahan. Silakan coba lagi nanti atau hubungi administrator.
-        </div>
-    </div>
-</div>
-
-                        <!-- <div class="row">
+                        <div class="row">
                             <div class="col-sm-6">
                                 <div class="table-responsive">
                                     <table class="table table-striped">
@@ -111,7 +97,7 @@ $username  = $cek->pegawai_nip;
                                             <tr>
                                                 <td>Status</td>
                                                 <td class="text-left fw-bold">
-                                                    <!-- <?php
+                                                    <?php
                                                     if ($baris->ska_dibaca == 4) { ?>
                                                         <span class="badge badge-success fw-bold mt-2 mb-2"><i class="fas fa-check-circle"></i>&nbsp; Terbit</span>
                                                     <?php } elseif ($baris->ska_dibaca == 3) { ?>
@@ -126,7 +112,7 @@ $username  = $cek->pegawai_nip;
                                                     <?php } ?>
                                                 </td>
                                             </tr>
-                                            <!-- <tr>
+                                            <tr>
                                                 <td>Penerbitan Nomor</td>
                                                 <td class="text-left">
                                                     <?php
@@ -136,16 +122,16 @@ $username  = $cek->pegawai_nip;
                                                         echo "<i class='fas fa-times-circle text-danger'></i>&nbsp; Belum terbit";
                                                     } ?>
                                                 </td>
-                                            </tr> -->
+                                            </tr>
                                             <?php if ($level == 'staf' and $baris->ska_dibaca != 4) { ?>
                                                 <tr>
                                                     <td></td>
-                                                    <!-- <td class="text-left"><a href="<?php echo base_url(); ?>users/ska/cetak/<?php echo $baris->id_ska; ?>" class="btn btn-info btn-sm mt-2 mb-2 fw-bold" title="Preview Draft Surat" target="_blank"><i class="fas fa-print"></i> Preview Surat</a></td> -->
+                                                    <td class="text-left"><a href="<?php echo base_url(); ?>users/ska/cetak/<?php echo $baris->id_ska; ?>" class="btn btn-info btn-sm mt-2 mb-2 fw-bold" title="Preview Draft Surat" target="_blank"><i class="fas fa-print"></i> Preview Surat</a></td>
                                                 </tr>
                                             <?php } elseif ($level != 'staf') { ?>
                                                 <tr>
                                                     <td></td>
-                                                    <!-- <td class="text-left"><a href="<?php echo base_url(); ?>users/ska/cetak/<?php echo $baris->id_ska; ?>" class="btn btn-info btn-sm mt-2 mb-2 fw-bold" title="Preview Draft Surat" target="_blank"><i class="fas fa-print"></i> Preview Surat</a></td> -->
+                                                    <td class="text-left"><a href="<?php echo base_url(); ?>users/ska/cetak/<?php echo $baris->id_ska; ?>" class="btn btn-info btn-sm mt-2 mb-2 fw-bold" title="Preview Draft Surat" target="_blank"><i class="fas fa-print"></i> Preview Surat</a></td>
                                                 </tr>
                                             <?php } ?>
                                         </tbody>
@@ -169,11 +155,11 @@ $username  = $cek->pegawai_nip;
                     <?php if ($level != 'staf') { ?>
                         <div class="separator-solid"></div>
                         <div class="invoice-top">
-                            <!-- <h6 class="text-uppercase fw-bold">
+                            <h6 class="text-uppercase fw-bold">
                                 TINDAKAN SELANJUTNYA
-                            </h6> -->
+                            </h6>
                         </div>
-                    <?php } ?> -->
+                    <?php } ?>
                     <form action="" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <?php if ($level == 'kasi') { ?>
@@ -314,4 +300,4 @@ $username  = $cek->pegawai_nip;
             </div>
         </div>
     </div>
-</div> -->
+</div>
