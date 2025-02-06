@@ -155,9 +155,9 @@ $username  = $cek->pegawai_nip;
                     <?php if ($level != 'staf') { ?>
                         <div class="separator-solid"></div>
                         <div class="invoice-top">
-                            <h6 class="text-uppercase fw-bold">
+                            <!-- <h6 class="text-uppercase fw-bold">
                                 TINDAKAN SELANJUTNYA
-                            </h6>
+                            </h6> -->
                         </div>
                     <?php } ?> -->
                     <form action="" method="post" enctype="multipart/form-data">
