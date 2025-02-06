@@ -27,7 +27,7 @@ $username  = $cek->pegawai_nip;
                             </h6>
                         </div>
                         <div class="separator-solid"></div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-sm-6">
                                 <div class="table-responsive">
                                     <table class="table table-striped">
@@ -159,7 +159,7 @@ $username  = $cek->pegawai_nip;
                                 TINDAKAN SELANJUTNYA
                             </h6>
                         </div>
-                    <?php } ?>
+                    <?php } ?> -->
                     <form action="" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <?php if ($level == 'kasi') { ?>
