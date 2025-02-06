@@ -27,6 +27,20 @@ $username  = $cek->pegawai_nip;
                             </h6>
                         </div>
                         <div class="separator-solid"></div>
+                        <div class="card-body">
+    <div class="invoice-item">
+        <div class="invoice-top">
+            <h6 class="text-uppercase fw-bold text-danger">
+                Error: Tidak dapat mengakses pengajuan surat.
+            </h6>
+        </div>
+        <div class="separator-solid"></div>
+        <div class="alert alert-danger mt-3" role="alert">
+            Terjadi kesalahan. Silakan coba lagi nanti atau hubungi administrator.
+        </div>
+    </div>
+</div>
+
                         <!-- <div class="row">
                             <div class="col-sm-6">
                                 <div class="table-responsive">
