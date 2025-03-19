@@ -54,7 +54,7 @@
                                         <?php if ($baris->sm_dibaca == 2) { ?>
                                             <a href="" class="btn btn-info btn-sm mt-1 mb-1 fw-bold" data-toggle="modal" data-target="#detailSM<?php echo $baris->id_sm; ?>"><i class="fas fa-eye"></i> Detail</a>
                                         <?php } elseif ($baris->sm_dibaca == 1) { ?>
-                                            <a href="" class="btn btn-info btn-sm mt-1 mb-1 fw-bold" data-toggle="modal" data-target="#detailSM<?php echo $baris->id_sm; ?>"><i class="fab fa-telegram-plane"></i> Ajukan</a>
+                                            <a href="" class="btn btn-info btn-sm mt-1 mb-1 fw-bold" data-toggle="modal" data-target="#detailSM<?php echo $baris->id_sm; ?>"><i class="fab fa-telegram-plane"></i> Validasi</a>
                                         <?php } ?>
                                         <!-- modal detail surat -->
                                         <div class="modal fade" id="detailSM<?php echo $baris->id_sm; ?>" tabindex="-1" role="dialog" aria-labelledby="detailSM<?php echo $baris->id_sm; ?>">
